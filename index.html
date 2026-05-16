@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shahd Eid | Creative Fullstack Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="logo">Shahd<span>.</span></div>
+
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">Who is Shahd?</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </nav>
+
+  <section class="hero" id="home">
+
+    <div class="hero-text">
+
+      <div class="tag">Creative Cozy Fullstack Developer (Node.js Backend) </div>
+
+      <h1>
+        I build websites,<br>
+        fix bugs,<br>
+        and redesign things <span>for no reason at 2AM.</span>
+      </h1>
+
+      <p>
+        Fullstack Developer focused Front-End with an arts background,
+        obsessed with creative UI, smooth interactions, and making websites feel alive.
+      </p>
+
+      <div class="buttons">
+        <a href="#projects" class="btn main">View Projects</a>
+        <a href="#contact" class="btn">Download CV</a>
+      </div>
+
+    </div>
+
+    <div class="hero-image">
+      <div class="blob"></div>
+
+      <img src="./profile.jpg" class="avatar">
+    </div>
+
+  </section>
+
+  <section class="about" id="about">
+
+    <h2 class="title">Who is <span>Shahd??</span></h2>
+
+    <div class="about-content">
+      <p>
+        I started from the art side first.
+        Colors, composition, details… basically judging every bad design I see.
+        <br>
+
+        Then I discovered programming and realized:
+        <br>
+        “wait… I can actually BUILD the things I imagine?”
+        <br>
+
+        Now I enjoy creating interactive web experiences that combine creativity with logic.
+        <br>
+
+        Currently focused on React, APIs, Front-End Development,
+        and Full-Stack fundamentals.
+        <br>
+
+        And yes…
+        I still fight with CSS sometimes.
+      </p>
+    </div>
+
+  </section>
+
+  <section id="projects">
+
+    <h2 class="title">Featured <span>Projects</span></h2>
+
+    <div class="projects-container">
+
+      <div class="card">
+
+        <img src="./todo-react.png" alt="project">
+
+        <h3>Todo • Notes • Weather</h3>
+
+        <p>
+          Productivity app with notes, tasks, and weather updates — because being confused about life AND the weather is too much.
+        </p>
+
+        <div class="tech">
+          <span>React</span>
+          <span>React Hooks</span>
+          <span>Weather API</span>
+          <span>Responsive Design</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://todo-notes-zvqv.vercel.app/" target="_blank">Live Demo</a>
+          <a href="https://github.com/shahdeid06/todo-notes.git" target="_blank">GitHub</a>
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <img src="./crud.png" alt="project">
+
+        <h3>Auth / CRUD System</h3>
+
+        <p>
+          A simple authentication & CRUD flow project focused on handling data, APIs, and user interactions.
+        </p>
+
+        <div class="tech">
+          <span>JavaScript</span>
+          <span>CRUD</span>
+          <span>Fetch API</span>
+          <span>Authentication</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://shahdeid06.github.io/Auth1.proccess/" target="_blank">Live Demo</a>
+          <a href="https://github.com/shahdeid06/Auth1.proccess.git" target="_blank">GitHub</a>
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <img src="./todo.png" alt="project">
+
+        <h3>Classic To-Do List</h3>
+
+        <p>
+          One of my first projects where I discovered that deleting tasks is easier than finishing them.
+        </p>
+
+        <div class="tech">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>UI Design</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://shahdeid06.github.io/To-do-list/" target="_blank">Live Demo</a>
+          <a href="https://github.com/shahdeid06/To-do-list.git" target="_blank">GitHub</a>
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <img src="./image.png" alt="project">
+
+        <h3>Link Space</h3>
+
+        <p>
+          Front-end contribution for a workspace-style platform built with modern UI concepts and collaborative structure.
+        </p>
+
+        <div class="tech">
+          <span>Frontend</span>
+          <span>JavaScript</span>
+          <span>Node.js Workspace</span>
+          <span>Team Project</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://www.link-space.net/" target="_blank">Live Demo</a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="skills">
+
+    <h2 class="title">Things I Do <span>Daily</span></h2>
+
+    <div class="skills-grid">
+
+      <div class="skill-box">
+        <h3>Frontend Magic</h3>
+
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Responsive Design</li>
+        </ul>
+      </div>
+
+      <div class="skill-box">
+        <h3>Backend Survival Skills</h3>
+
+        <ul>
+          <li>APIs</li>
+          <li>CRUD Operations</li>
+          <li>Authentication</li>
+          <li>Node.js Basics</li>
+          <li>Fetch API</li>
+        </ul>
+      </div>
+
+      <div class="skill-box">
+        <h3>Things I Yell At Daily</h3>
+
+        <ul>
+          <li>CSS Bugs</li>
+          <li>Console Errors</li>
+          <li>Responsive Issues</li>
+          <li>Centering Divs</li>
+          <li>Missing Semicolons</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="contact">
+
+    <div class="contact-box">
+
+      <h2>Let's Build Something Cool </h2>
+
+      <p>
+        Whether it's a project, collaboration,
+        or just talking about why CSS behaves like that.
+      </p>
+
+      <div class="buttons" style="justify-content:center;">
+        <a href="mailto:youremail@gmail.com" class="btn">Email Me</a>
+        <a href="https://github.com/shahdeid06" target="_blank" class="btn">GitHub</a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    Made with coffee, chaos, and too many browser tabs 
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
